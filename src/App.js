@@ -1,11 +1,9 @@
 import React from 'react';
+import Header from './components/Header';
+const links = ['Home', 'Blog', 'Feature', 'About'];
 
 const App = () => {
-  return (
-    <h1 className="text-green-500 text-center text-4xl font-bold">
-      hello world
-    </h1>
-  );
+  return <Header />;
 };
 
 export default App;
