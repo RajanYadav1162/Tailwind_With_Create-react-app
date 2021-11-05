@@ -1,9 +1,8 @@
 import React from 'react';
-import Header from './components/Header';
-const links = ['Home', 'Blog', 'Feature', 'About'];
+import PropsValidator from './components/PropsValidator';
 
 const App = () => {
-  return <Header />;
+  return <PropsValidator name="rajan" age={21} />;
 };
 
 export default App;
